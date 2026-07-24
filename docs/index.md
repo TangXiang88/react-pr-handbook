@@ -21,4 +21,4 @@
 | [合并与发布](./guide/07-merge-release) | 知道合并后发生什么、你还要盯什么 |
 | [常见翻车](./guide/08-pitfalls) | 避开初级最常踩的坑 |
 
-> 主图在各章顶部。源文件约定见 [`docs/diagrams/`](./diagrams/)；当前 SVG 与章节内容对齐，可按同样风格用 Excalidraw 回填源文件。
+> 主图在各章顶部。风格约定见仓库内 `docs/diagrams/README.md`；当前 SVG 与章节内容对齐，可用 Excalidraw 再回填源文件。
