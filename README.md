@@ -1,8 +1,13 @@
 # react-pr-handbook
 
+[![CI](https://github.com/TangXiang88/react-pr-handbook/actions/workflows/ci.yml/badge.svg)](https://github.com/TangXiang88/react-pr-handbook/actions/workflows/ci.yml)
+[![Deploy docs](https://github.com/TangXiang88/react-pr-handbook/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/TangXiang88/react-pr-handbook/actions/workflows/deploy-docs.yml)
+
 **给初级前端的入职协作手册：从拉起 React 项目到合入第一个规范 PR。**
 
 用协作时间线当骨架，在关键节点挂上可执行的前端约定；每章一张主图，对照迷你示例仓库动手。
+
+📖 **在线文档：** [https://tangxiang88.github.io/react-pr-handbook/](https://tangxiang88.github.io/react-pr-handbook/)
 
 ## 这是什么 / 不是什么
 

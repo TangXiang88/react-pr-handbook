@@ -9,7 +9,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '手册', link: '/guide/00-assumptions' },
-      { text: 'GitHub', link: 'https://github.com/PLACEHOLDER/react-pr-handbook' },
+      { text: 'GitHub', link: 'https://github.com/TangXiang88/react-pr-handbook' },
     ],
     sidebar: [
       {
@@ -34,7 +34,7 @@ export default defineConfig({
       },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/PLACEHOLDER/react-pr-handbook' },
+      { icon: 'github', link: 'https://github.com/TangXiang88/react-pr-handbook' },
     ],
     outline: { label: '本页目录' },
     docFooter: { prev: '上一章', next: '下一章' },
