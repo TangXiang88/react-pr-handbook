@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/02-setup.svg` ← `docs/diagrams/02-setup.excalidraw`
 
-![拉起项目占位](/diagrams/02-setup.svg)
+![拉起项目](/diagrams/02-setup.svg)
 
 ## 目标
 

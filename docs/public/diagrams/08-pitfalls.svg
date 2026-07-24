@@ -1,5 +1,33 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">常见翻车（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/08-pitfalls.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">常见翻车</title>
+  <desc id="desc">初级前端高频坑与更好的做法对照</desc>
+  <rect width="900" height="360" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">常见翻车 → 更好做法</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="13" fill="#1e1e1e">
+    <rect x="40" y="60" width="400" height="40" rx="8" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="55" y="85">一个 PR 改十个无关文件</text>
+    <rect x="460" y="60" width="400" height="40" rx="8" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="475" y="85">拆 PR；重构单独开</text>
+
+    <rect x="40" y="110" width="400" height="40" rx="8" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="55" y="135">没有截图/预览就求审</text>
+    <rect x="460" y="110" width="400" height="40" rx="8" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="475" y="135">补视觉证据再 @ 人</text>
+
+    <rect x="40" y="160" width="400" height="40" rx="8" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="55" y="185">CI 红着催 Review</text>
+    <rect x="460" y="160" width="400" height="40" rx="8" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="475" y="185">先修红再请人看</text>
+
+    <rect x="40" y="210" width="400" height="40" rx="8" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="55" y="235">业务组件塞进巨大 components/</text>
+    <rect x="460" y="210" width="400" height="40" rx="8" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="475" y="235">优先放进对应 features/</text>
+
+    <rect x="40" y="260" width="400" height="40" rx="8" fill="#ffe3e3" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="55" y="285">过期主分支拉出 → 冲突爆炸</text>
+    <rect x="460" y="260" width="400" height="40" rx="8" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="1.5"/>
+    <text x="475" y="285">开 PR 前同步默认分支</text>
+  </g>
+  <text x="40" y="335" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#868e96">先把「拉起→改一小步→自测→PR→Review→合并验证」这条线走锋利</text>
 </svg>

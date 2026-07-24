@@ -1,5 +1,25 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">开 PR（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/05-open-pr.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">开 PR</title>
+  <desc id="desc">一份别人不用猜的 Pull Request 必备四块信息</desc>
+  <rect width="900" height="300" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">开 PR：别人不用猜</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">
+    <rect x="40" y="70" width="190" height="90" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="135" y="108" text-anchor="middle">为什么改</text>
+    <text x="135" y="132" text-anchor="middle" font-size="12" fill="#495057">关联 issue / 背景</text>
+    <rect x="250" y="70" width="190" height="90" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="345" y="108" text-anchor="middle">怎么验证</text>
+    <text x="345" y="132" text-anchor="middle" font-size="12" fill="#495057">步骤或命令</text>
+    <rect x="460" y="70" width="190" height="90" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="555" y="108" text-anchor="middle">看得见的证据</text>
+    <text x="555" y="132" text-anchor="middle" font-size="12" fill="#495057">预览或前后截图</text>
+    <rect x="670" y="70" width="190" height="90" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="765" y="108" text-anchor="middle">风险与范围</text>
+    <text x="765" y="132" text-anchor="middle" font-size="12" fill="#495057">公共组件？跟版？</text>
+  </g>
+  <g fill="none" stroke="#1e1e1e" stroke-width="2" stroke-dasharray="4 4">
+    <rect x="40" y="190" width="820" height="56" rx="10" fill="#f8f9fa"/>
+  </g>
+  <text x="60" y="224" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">用仓库 PR 模板 · 标题像 changelog 一句 · 自己先看一眼 CI</text>
+  <text x="40" y="280" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#868e96">前端改动的真相在屏幕上，不只在文字描述里</text>
 </svg>

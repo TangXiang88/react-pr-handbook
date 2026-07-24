@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/03-change-code.svg` ← `docs/diagrams/03-change-code.excalidraw`
 
-![接任务改代码占位](/diagrams/03-change-code.svg)
+![接任务改代码](/diagrams/03-change-code.svg)
 
 ## 目标
 

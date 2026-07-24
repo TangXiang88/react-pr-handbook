@@ -1,5 +1,38 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">拉起项目（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/02-setup.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">拉起项目</title>
+  <desc id="desc">克隆、安装、本地启动文档站与示例应用，并认清目录</desc>
+  <rect width="900" height="300" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">拉起项目</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">
+    <rect x="40" y="70" width="130" height="56" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="105" y="104" text-anchor="middle">git clone</text>
+    <rect x="210" y="70" width="130" height="56" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="275" y="104" text-anchor="middle">npm install</text>
+    <rect x="380" y="70" width="130" height="56" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="445" y="96" text-anchor="middle">app:dev</text>
+    <text x="445" y="116" text-anchor="middle" font-size="12" fill="#495057">示例应用</text>
+    <rect x="550" y="70" width="130" height="56" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="615" y="96" text-anchor="middle">docs:dev</text>
+    <text x="615" y="116" text-anchor="middle" font-size="12" fill="#495057">文档站</text>
+  </g>
+  <g fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a2)">
+    <defs>
+      <marker id="a2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M170 98 H210"/>
+    <path d="M340 98 H380"/>
+    <path d="M510 98 H550"/>
+  </g>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1e1e1e">
+    <text x="40" y="180" font-size="16" fill="#1f2329">认目录（examples/app/src）</text>
+    <rect x="40" y="200" width="200" height="48" rx="8" fill="#e7f5ff" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="140" y="230" text-anchor="middle">pages/ 页面编排</text>
+    <rect x="270" y="200" width="220" height="48" rx="8" fill="#e7f5ff" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="380" y="230" text-anchor="middle">features/ 业务切片</text>
+    <rect x="520" y="200" width="240" height="48" rx="8" fill="#e7f5ff" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="640" y="230" text-anchor="middle">components/ui 共享哑组件</text>
+  </g>
+  <text x="40" y="280" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#868e96">两边都能打开，才算「拉起成功」</text>
 </svg>

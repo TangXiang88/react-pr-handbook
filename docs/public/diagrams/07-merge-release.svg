@@ -1,5 +1,36 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">合并与发布（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/07-merge-release.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+  <title id="title">合并与发布</title>
+  <desc id="desc">从批准合并到环境验证与关闭 issue</desc>
+  <rect width="900" height="280" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">合并与发布</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#1e1e1e">
+    <rect x="30" y="70" width="150" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="105" y="100" text-anchor="middle">CI 绿 + 批准</text>
+    <text x="105" y="122" text-anchor="middle" font-size="12" fill="#495057">满足团队规则</text>
+    <rect x="205" y="70" width="140" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="275" y="100" text-anchor="middle">合并</text>
+    <text x="275" y="122" text-anchor="middle" font-size="12" fill="#495057">倾向 squash</text>
+    <rect x="370" y="70" width="140" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="440" y="100" text-anchor="middle">删短分支</text>
+    <text x="440" y="122" text-anchor="middle" font-size="12" fill="#495057">保持干净</text>
+    <rect x="535" y="70" width="160" height="72" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="615" y="100" text-anchor="middle">环境验证</text>
+    <text x="615" y="122" text-anchor="middle" font-size="12" fill="#495057">预发 / 生产点一眼</text>
+    <rect x="720" y="70" width="150" height="72" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="795" y="100" text-anchor="middle">关 issue</text>
+    <text x="795" y="122" text-anchor="middle" font-size="12" fill="#495057">补一句结果</text>
+  </g>
+  <g fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a7)">
+    <defs>
+      <marker id="a7" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M180 106 H205"/>
+    <path d="M345 106 H370"/>
+    <path d="M510 106 H535"/>
+    <path d="M695 106 H720"/>
+  </g>
+  <rect x="40" y="180" width="820" height="56" rx="10" fill="#fff5f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="60" y="214" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">合并 ≠ 结束：缓存、权限、仅生产路径常在合并后才露脸</text>
 </svg>

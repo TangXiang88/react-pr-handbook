@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/08-pitfalls.svg` ← `docs/diagrams/08-pitfalls.excalidraw`
 
-![常见翻车占位](/diagrams/08-pitfalls.svg)
+![常见翻车](/diagrams/08-pitfalls.svg)
 
 ## 初级前端高频坑
 

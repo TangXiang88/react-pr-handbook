@@ -1,5 +1,32 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">接任务改代码（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/03-change-code.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+  <title id="title">接任务改代码</title>
+  <desc id="desc">从验收标准到小切片可演示改动的路径</desc>
+  <rect width="900" height="280" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">接任务改代码</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">
+    <rect x="40" y="70" width="150" height="56" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="115" y="104" text-anchor="middle">复述验收标准</text>
+    <rect x="230" y="70" width="150" height="56" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="305" y="96" text-anchor="middle">拉分支</text>
+    <text x="305" y="116" text-anchor="middle" font-size="12" fill="#495057">feat/… 或 fix/…</text>
+    <rect x="420" y="70" width="170" height="56" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="505" y="96" text-anchor="middle">改 features/*</text>
+    <text x="505" y="116" text-anchor="middle" font-size="12" fill="#495057">共享外观才进 ui</text>
+    <rect x="630" y="70" width="170" height="56" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="715" y="96" text-anchor="middle">一小步可演示</text>
+    <text x="715" y="116" text-anchor="middle" font-size="12" fill="#495057">一次 PR 一个切片</text>
+  </g>
+  <g fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a3)">
+    <defs>
+      <marker id="a3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M190 98 H230"/>
+    <path d="M380 98 H420"/>
+    <path d="M590 98 H630"/>
+  </g>
+  <rect x="40" y="170" width="760" height="60" rx="10" fill="#fff5f5" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="60" y="206" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">教具：在 examples/app 加一条默认任务或改一处可见文案，再走开 PR 流程</text>
+  <text x="40" y="260" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#868e96">小 diff → 便宜的评审 → 更容易合入第一个 PR</text>
 </svg>

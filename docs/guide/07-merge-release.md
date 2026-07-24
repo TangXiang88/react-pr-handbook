@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/07-merge-release.svg` ← `docs/diagrams/07-merge-release.excalidraw`
 
-![合并与发布占位](/diagrams/07-merge-release.svg)
+![合并与发布](/diagrams/07-merge-release.svg)
 
 ## 目标
 

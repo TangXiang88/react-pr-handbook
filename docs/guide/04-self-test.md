@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/04-self-test.svg` ← `docs/diagrams/04-self-test.excalidraw`
 
-![自测与设计还原占位](/diagrams/04-self-test.svg)
+![自测与设计还原](/diagrams/04-self-test.svg)
 
 ## 目标
 

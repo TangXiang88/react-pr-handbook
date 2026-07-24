@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/05-open-pr.svg` ← `docs/diagrams/05-open-pr.excalidraw`
 
-![开 PR 占位](/diagrams/05-open-pr.svg)
+![开 PR](/diagrams/05-open-pr.svg)
 
 ## 目标
 

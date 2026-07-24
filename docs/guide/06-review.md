@@ -2,7 +2,7 @@
 
 > **主图位置：** `diagrams/06-review.svg` ← `docs/diagrams/06-review.excalidraw`
 
-![评审与修改占位](/diagrams/06-review.svg)
+![评审与修改](/diagrams/06-review.svg)
 
 ## 目标
 

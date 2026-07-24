@@ -1,5 +1,32 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img">
-  <rect width="800" height="200" fill="#f6f7f9" stroke="#c9cdd3" stroke-width="2"/>
-  <text x="400" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#1f2329">自测与设计还原（占位）</text>
-  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#86909c">用 Excalidraw 替换 · docs/diagrams/04-self-test.excalidraw</text>
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+  <title id="title">自测与设计还原</title>
+  <desc id="desc">开 PR 前先自己验收：功能、设计、响应、工程</desc>
+  <rect width="900" height="280" fill="#ffffff"/>
+  <text x="40" y="36" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#1f2329">自测与设计还原</text>
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">
+    <rect x="40" y="70" width="180" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="130" y="100" text-anchor="middle">1. 功能</text>
+    <text x="130" y="122" text-anchor="middle" font-size="12" fill="#495057">主路径 · 空态/错误态</text>
+    <rect x="250" y="70" width="180" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="340" y="100" text-anchor="middle">2. 设计还原</text>
+    <text x="340" y="122" text-anchor="middle" font-size="12" fill="#495057">间距 · 字号 · 对齐</text>
+    <rect x="460" y="70" width="180" height="72" rx="10" fill="#fff3bf" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="550" y="100" text-anchor="middle">3. 响应</text>
+    <text x="550" y="122" text-anchor="middle" font-size="12" fill="#495057">至少一个窄屏</text>
+    <rect x="670" y="70" width="180" height="72" rx="10" fill="#d3f9d8" stroke="#1e1e1e" stroke-width="2"/>
+    <text x="760" y="100" text-anchor="middle">4. 工程</text>
+    <text x="760" y="122" text-anchor="middle" font-size="12" fill="#495057">lint / type / build</text>
+  </g>
+  <g fill="none" stroke="#1e1e1e" stroke-width="2" marker-end="url(#a4)">
+    <defs>
+      <marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1e1e1e"/>
+      </marker>
+    </defs>
+    <path d="M220 106 H250"/>
+    <path d="M430 106 H460"/>
+    <path d="M640 106 H670"/>
+  </g>
+  <rect x="40" y="180" width="810" height="56" rx="10" fill="#e7f5ff" stroke="#1e1e1e" stroke-width="2"/>
+  <text x="60" y="214" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#1e1e1e">先当严格验收人，再打扰评审人 · 无设计稿就按 issue 文字验收并在 PR 写明</text>
 </svg>
