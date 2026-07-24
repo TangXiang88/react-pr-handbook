@@ -15,7 +15,9 @@
 - 大幅重写某章主路径
 - 新增整章（尤其是 v2 范围：状态管理、性能、组件库等）
 
-开 Discussion 说明：想改什么、为什么、对初级读者的影响。维护者裁决后再动手改文档。
+开 [Discussion](https://github.com/TangXiang88/react-pr-handbook/discussions) 说明：想改什么、为什么、对初级读者的影响。维护者裁决后再动手改文档。
+
+小修（错别字、坏链、示例 bug）可直接开 Issue（选对应模板）或 PR。
 
 ## 本地开发
 

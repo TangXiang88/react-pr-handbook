@@ -1,0 +1,32 @@
+name: 文档问题
+description: 错别字、坏链、主图/正文不一致、说明不清
+title: "[docs] "
+labels: ["docs"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 错别字 / 病句
+        - 坏链 / 路径错误
+        - 主图与正文不一致
+        - 说明不清 / 缺降级场景
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面
+      description: 文档站 URL 或仓库路径，例如 guide/05-open-pr
+      placeholder: https://tangxiang88.github.io/react-pr-handbook/guide/...
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 现状与建议
+      description: 现在写的是什么？你建议改成什么？
+    validations:
+      required: true

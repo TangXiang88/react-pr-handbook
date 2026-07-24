@@ -55,4 +55,4 @@ npm run app:dev     # 示例应用（端口见终端）
 
 ## 贡献
 
-修错别字、坏链、补例子欢迎直接开 PR。若要改手册的默认观点，请先开 Discussion。详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+修错别字、坏链、补例子欢迎直接开 PR 或 [Issue](https://github.com/TangXiang88/react-pr-handbook/issues/new/choose)。若要改手册的默认观点，请先开 [Discussion](https://github.com/TangXiang88/react-pr-handbook/discussions)。详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。

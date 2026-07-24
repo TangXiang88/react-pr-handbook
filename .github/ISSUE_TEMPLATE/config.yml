@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 想改手册的「强观点」？先开 Discussion
+    url: https://github.com/TangXiang88/react-pr-handbook/discussions/new?category=ideas
+    about: 目录约定、默认工具链、大幅改章路径、新增 v2 专题等，请先讨论再开 PR。
+  - name: 在线文档
+    url: https://tangxiang88.github.io/react-pr-handbook/
+    about: 先在文档站对照章节与主图，再提交反馈。

@@ -1,0 +1,36 @@
+name: 示例应用 Bug
+description: examples/app 跑不起来、类型错误、界面异常
+title: "[app] "
+labels: ["bug", "examples"]
+body:
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. npm install
+        2. npm run app:dev
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 可贴报错全文或截图说明
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      description: Node 版本、操作系统、浏览器（如适用）
+      placeholder: Node 20 / Windows 11 / Chrome
+    validations:
+      required: true
