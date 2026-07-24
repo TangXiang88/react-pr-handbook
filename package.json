@@ -1,0 +1,21 @@
+{
+  "name": "react-pr-handbook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "给初级前端的入职协作手册：从拉起 React 项目到合入第一个规范 PR",
+  "workspaces": [
+    "docs",
+    "examples/app"
+  ],
+  "scripts": {
+    "docs:dev": "npm run dev -w docs",
+    "docs:build": "npm run build -w docs",
+    "docs:preview": "npm run preview -w docs",
+    "app:dev": "npm run dev -w examples/app",
+    "app:build": "npm run build -w examples/app",
+    "build": "npm run app:build && npm run docs:build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

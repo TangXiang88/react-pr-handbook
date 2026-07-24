@@ -1,0 +1,35 @@
+.shell {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.brand {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: #4e5969;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 650;
+}
+
+.subtitle {
+  margin: 0.5rem 0 0;
+  color: #4e5969;
+}
+
+.main {
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
