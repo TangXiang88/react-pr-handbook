@@ -51,6 +51,10 @@ export function TaskBoard() {
         />
         <Button onClick={addTask}>添加</Button>
       </div>
+      <p className={styles.hint}>
+        练习：按仓库 <code>examples/app/PRACTICE.md</code> 给{' '}
+        <code>initialTasks</code> 加一条默认任务，再走开 PR 流程。
+      </p>
     </div>
   )
 }

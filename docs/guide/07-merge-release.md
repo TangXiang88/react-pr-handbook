@@ -1,6 +1,6 @@
 # 7. 合并与发布
 
-> **主图位置：** `diagrams/07-merge-release.svg` ← `docs/diagrams/07-merge-release.excalidraw`
+> **主图位置：** `diagrams/07-merge-release.svg`
 
 ![合并与发布](/diagrams/07-merge-release.svg)
 
@@ -18,8 +18,24 @@
 
 **为什么合并后还要看一眼：** 前端常有「仅生产环境才出现」的路径、缓存、权限问题。
 
+## 对本仓库文档站
+
+本仓库的文档由 GitHub Actions 部署到 Pages。合并进 `master` 后：
+
+1. 打开 Actions，确认 **Deploy docs** / **CI** 为成功  
+2. 打开 [在线文档](https://tangxiang88.github.io/react-pr-handbook/) 硬刷新，确认改动可见  
+
+示例应用本身不单独托管；练习 PR 合并后以默认分支上的代码为准。
+
 ## 降级
 
 没有独立发布流水线 → 合并即视为交付，但仍应在目标环境手动点验主路径。
+
+## 检查清单
+
+- [ ] 合并方式符合团队约定（本手册示例：squash）
+- [ ] 远程短分支已删
+- [ ] 目标环境主路径点过一眼
+- [ ] 相关 issue / 练习说明已闭环
 
 下一章：[常见翻车](./08-pitfalls)

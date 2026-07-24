@@ -1,6 +1,6 @@
 # 3. 接任务改代码
 
-> **主图位置：** `diagrams/03-change-code.svg` ← `docs/diagrams/03-change-code.excalidraw`
+> **主图位置：** `diagrams/03-change-code.svg`
 
 ![接任务改代码](/diagrams/03-change-code.svg)
 
@@ -17,9 +17,32 @@
 
 **为什么要小：** 评审成本随 diff 膨胀；小 PR 更容易在第一周合入，建立信心。
 
-## 教具练习
+## 教具练习（必做）
 
-在 `examples/app` 中给任务列表增加一条默认示例任务，或改一处可见文案——走完后面开 PR 的流程。
+完整步骤见仓库 [`examples/app/PRACTICE.md`](https://github.com/TangXiang88/react-pr-handbook/blob/master/examples/app/PRACTICE.md)。摘要：
+
+**练习任务卡**
+
+| 项 | 内容 |
+| --- | --- |
+| 背景 | 看板默认列表还差一条「入职练习」提示任务 |
+| 验收 | 刷新后列表里能看到新的默认任务（不依赖手动输入） |
+| 范围 | 只改 `examples/app/src/features/tasks/TaskBoard.tsx` 的 `initialTasks` |
+| 不做 | 不改样式体系、不加新依赖、不重构目录 |
+
+```bash
+git checkout -b feat/add-onboarding-task
+# 编辑 initialTasks，追加一条 title
+npm run app:build
+```
+
+改完应能在界面上指给人看；下一章自测，再开 PR。
+
+## 反例（别这么干）
+
+- 顺手「整理」了半个 `components/` —— 拆成另一个 PR  
+- 验收标准含糊就开写 —— 先留言问清  
+- 一个分支里塞三个不相关需求 —— 拆分支
 
 ## 检查清单
 

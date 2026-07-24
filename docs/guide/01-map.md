@@ -24,6 +24,8 @@
 
 ## 对照示例
 
-仓库 `examples/app` 模拟一个极简「任务看板」教具，后续章节的改动都落在这里。
+仓库 `examples/app` 模拟一个极简「任务看板」教具。建议按
+[`examples/app/PRACTICE.md`](https://github.com/TangXiang88/react-pr-handbook/blob/master/examples/app/PRACTICE.md)
+做完一次仿真改动，后续章节都围着这条练习转。
 
 下一章：[拉起项目](./02-setup)

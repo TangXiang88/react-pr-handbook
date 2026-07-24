@@ -2,6 +2,10 @@
 
 教具级 React 应用（Vite + TypeScript），配合手册练习「小改动 → 规范 PR」。
 
+## 先做这个
+
+完整练习卡：[PRACTICE.md](./PRACTICE.md)（加一条默认任务并开练习 PR）。
+
 ## 目录
 
 - `src/pages/` — 页面编排

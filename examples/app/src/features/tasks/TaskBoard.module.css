@@ -24,3 +24,14 @@
   border-radius: 8px;
   padding: 0.55rem 0.75rem;
 }
+
+.hint {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #868e96;
+}
+
+.hint code {
+  font-size: 0.8125rem;
+}
